@@ -5,14 +5,25 @@
     <link rel="stylesheet" href="main.css">
 
     <title>WF11 Condominium</title>
-    <nav class="header">
-        <h1>WF11 Management System</h1>
-        <a href="main.html">Home</a>
-        <a>Contact Us</a>
-        <a>Resident Login</a>
-    </nav>
 </head>
 <body>
-    
+    <nav id="header">
+        <h1>WF11 Management System</h1>
+        <div class="link_to">
+            <a href="main.html">Home</a>
+            <a>Contact Us</a>
+            <a class="res_login">Resident Login</a>
+        </div>
+    </nav>
+
+    <div class="login"> <!-- This is a pop-up window-->
+        <h1 class="logTitle">Resident Information</h1>
+            <input type="text" name="username" placeholder="User Name" class="logInput"> <br>
+            <input type="text" name="password" placeholder="Password" class="logInput"> <br>
+            <button type="submit" class="logButton">Log In</button>
+            <span class="close">X</span>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 </html>
