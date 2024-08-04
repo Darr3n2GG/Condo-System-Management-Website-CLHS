@@ -10,13 +10,19 @@ h1{
 }
 
 .headerGuest{
-    display: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    width: 100%;
 }
 
 .headerRes{
     display: none;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    width: 100%;
 }
 
 .login {
