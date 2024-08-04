@@ -1,19 +1,22 @@
-.header{
+head{
     width: 100vw;
     background-color: black;
     position: fixed;
+    text-align: center;
 }
 
-h1, .header{
+h1{
     text-align: center;
 }
 
 .headerGuest{
-    display: flex;
+    display: fixed;
+    text-align: center;
 }
 
 .headerRes{
     display: none;
+    text-align: center;
 }
 
 .login {
