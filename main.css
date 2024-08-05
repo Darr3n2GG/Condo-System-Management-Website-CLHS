@@ -11,18 +11,19 @@ h1{
 
 .headerGuest{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
 }
 
 .headerRes{
     display: none;
+    width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
+
 }
 
 .login {
