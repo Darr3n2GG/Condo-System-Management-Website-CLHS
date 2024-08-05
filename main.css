@@ -18,7 +18,7 @@ h1{
 }
 
 .headerRes{
-    display: block;
+    display: none;
     width: 100%;
     align-items: center;
     justify-content: center;
